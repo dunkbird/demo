@@ -1,0 +1,23 @@
+<div id="businessDialog" style="overflow-y: hidden;text-align:left;display:none">
+	<form id="businessForm1" name="businessForm" style="margin: 0px;">
+	<div>
+		<label>User Id:&nbsp;</label>
+		<input type="text" id="searchUserId" name="searchUserId" style="width: 100px;">&nbsp;&nbsp;
+		<label>User Name:&nbsp;</label>
+		<input type="text" id="searchUserName" name="searchUserName" style="width: 100px;">&nbsp;&nbsp;
+		<input type="button" id="btnSearchBusiness" value="Search" style="width: 80px" />
+	</div>
+	</form>
+					
+	<div style="width: 631px; border: 1px solid #FFFFFF;margin-top:5px; margin-left:0px;">
+		<div style="background-color:#d2d2d2;width:131px;margin-left:0px;float:left">UserId</div>
+		<div style="background-color:#d2d2d2;width:130px;margin-left:2px;float:left">UserName</div>
+		<div style="background-color:#d2d2d2;width:130px;margin-left:2px;float:left">Department</div>
+		<div style="background-color:#d2d2d2;width:130px;margin-left:2px;float:left">Mail</div>
+		<div style="background-color:#d2d2d2;width:100px;margin-left:2px;float:left">Select</div>
+	</div>
+	<div style="overflow-x: hidden; overflow-y: scroll; height: 161px; width: 646px; border: 1px solid #c0c0c0;margin-left:1px;" id="userListDiv">
+							
+	</div>
+						
+</div>
